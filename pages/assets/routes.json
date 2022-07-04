@@ -1,6 +1,20 @@
 [
     {
-        "route": "test",
-        "handle": "test"
+        "route": "logo",
+        "handle": "logo",
+        "label": "Home",
+        "href": "/"
+    },
+    {
+        "route": "resume",
+        "handle": "resume",
+        "label": "Curriculum",
+        "href": "/resume"
+    },
+    {
+        "route": "contacts",
+        "handle": "contacts",
+        "label": "Contacts",
+        "href": "/contacts"
     }
 ]

@@ -1,9 +1,76 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
+import Navbar from '../components/Navbar';
 import styles from '../styles/Home.module.css'
+import { render } from 'react-dom';
+import { useState } from 'react';
 
 export default function Home() {
+  function generatePaletetteFromColor(hexColor= '#000'){
+    let hslColor = hexToHSL(hexColor);
+    let palette = [];
+    palette.push(hslColor);
+    for(let i = 1; i < 5; i++){
+      palette.push(
+        {
+          hue: Math.abs(hslColor.hue - 360/i),
+          saturation: Math.abs(100- (20 + (80*Math.random()))),
+          lightness: Math.abs(100- (20 + (80*Math.random()))),
+          alpha: 1
+        }
+      )
+    }
+
+    console.log(palette);
+  
+    return palette;
+  }
+
+  function hexToHSL(H) {
+    // Convert hex to RGB first
+    let r = 0, g = 0, b = 0;
+    if (H.length == 4) {
+      r = "0x" + H[1] + H[1];
+      g = "0x" + H[2] + H[2];
+      b = "0x" + H[3] + H[3];
+    } else if (H.length == 7) {
+      r = "0x" + H[1] + H[2];
+      g = "0x" + H[3] + H[4];
+      b = "0x" + H[5] + H[6];
+    }
+    // Then to HSL
+    r /= 255;
+    g /= 255;
+    b /= 255;
+    let cmin = Math.min(r,g,b),
+        cmax = Math.max(r,g,b),
+        delta = cmax - cmin,
+        h = 0,
+        s = 0,
+        l = 0;
+  
+    if (delta == 0)
+      h = 0;
+    else if (cmax == r)
+      h = ((g - b) / delta) % 6;
+    else if (cmax == g)
+      h = (b - r) / delta + 2;
+    else
+      h = (r - g) / delta + 4;
+  
+    h = Math.round(h * 60);
+  
+    if (h < 0)
+      h += 360;
+  
+    l = (cmax + cmin) / 2;
+    s = delta == 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
+    s = +(s * 100).toFixed(1);
+    l = +(l * 100).toFixed(1);
+  
+    return {hue: h, saturation: s, lightness: l }
+  }
+  const routes = require('./assets/routes.json');
+  const [palette, updatePalette] = useState(generatePaletetteFromColor());
   return (
     <div className={styles.container}>
       <Head>
@@ -12,46 +79,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <Link href={'test'}>Test Page</Link>
-        </h1>
+      <input onChange={(e)=>updatePalette(generatePaletetteFromColor(e.target.value))} type='color'/>
+      <div className='container'>
+        {palette.map((color, index)=>{
+          return (
+            <div 
+              key={index} 
+              style={{width: '10rem', marginLeft: 'auto', height: '10rem', background: "hsl("+color.hue+","+color.saturation+"%,"+color.lightness+"%)"}}>
+            </div>)
+        })}
+      </div>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+      <Navbar routes={routes}></Navbar>
     </div>
   )
 }

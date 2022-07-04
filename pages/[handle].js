@@ -1,5 +1,6 @@
 import { server } from ".";
 import Block from "../components/Block";
+import Navbar from "../components/Navbar";
 
 // This function gets called at build time
 export async function getStaticPaths() {
@@ -28,13 +29,27 @@ export async function getStaticProps({ params }) {
 }
 
 export default function page({ data }) {
+    const routes = require('./assets/routes.json');
     return(
-        <li>
-            {data.map((item, index) => {
-                return(
-                    <Block key={index} data={item} />
-                )
-            })}
-        </li>
+        <main>
+            <ul>
+                <li>
+                    {data.map((item, index) => {
+                        switch (item) {
+                            case 'Experiences':
+                                return(
+                                    item.blocks.map((data, index)=>{
+                                        return(
+                                            <Block data={data} key={index}>
+                                            </Block>
+                                        )
+                                    })
+                                );
+                        }
+                    })}
+                </li>
+            </ul>
+            <Navbar routes={routes} />
+        </main>
     )
 }

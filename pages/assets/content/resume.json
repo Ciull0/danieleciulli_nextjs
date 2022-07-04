@@ -1,0 +1,28 @@
+[
+    {
+        "type": "Experiences",
+        "blocks": [
+            {
+                "emplyer": "Sintra Digital Business",
+                "title": "Software Developer",
+                "location": "Arezzo",
+                "dates": "April 2021 - Present",
+                "description": "Sintra Digital Business is a company that provides services to the digital industry. I am working as a software developer in the Sintra Digital Business team. I am responsible for the development of the web application and the mobile application. I am also responsible for the development of the web application and the mobile application."          
+            },
+            {
+                "emplyer": "1950 American Diner",
+                "title": "Server",
+                "location": "Poggibonsi",
+                "dates": "June 2019 - November 2021",
+                "description": "1950 American Diner is a restaurant in Poggibonsi, Italy. I am working as a server in the 1950 American Diner team. I am responsible for the preparation of the food and the cleaning of the restaurant."
+            },
+            {
+                "emplyer": "PuntoErre",
+                "title": "Computer Technician",
+                "location": "Certaldo",
+                "dates": "June 2016 - August 2016",
+                "description": "PuntoErre is a company that provides services to the digital industry. I am working as a computer technician in the PuntoErre team. I am responsible for the maintenance of the computer equipment."
+            }
+        ]
+    }
+]
