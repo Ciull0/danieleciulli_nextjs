@@ -1,4 +1,3 @@
-import { server } from ".";
 import Block from "../components/Block";
 import Navbar from "../components/Navbar";
 
@@ -32,6 +31,7 @@ export default function page({ data }) {
     const routes = require('./assets/routes.json');
     return(
         <main>
+            
             <ul>
                 <li>
                     {data.map((item, index) => {

@@ -17,7 +17,7 @@ export default function Palette() {
       palette.push({
         hue:
           type == "hue"
-            ? (hslColor.hue - (360 / numberOfColors) * i) % 360
+            ? (hslColor.hue + (360 / numberOfColors) * i) % 360
             : hslColor.hue,
         saturation:
           type == "saturation"
@@ -29,6 +29,18 @@ export default function Palette() {
             : hslColor.lightness*1.5,
         alpha: 1,
       });
+    }
+
+    switch (type) {
+      case 'hue':
+        return palette;
+      case 'saturation':
+        return palette.sort((a, b) => -a.saturation + b.saturation);
+      case 'lightness':
+        return palette.sort((a, b) => a.lightness - b.lightness);
+    
+      default:
+        break;
     }
     return palette;
   }

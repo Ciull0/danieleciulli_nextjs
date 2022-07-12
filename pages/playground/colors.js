@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Palette from "../components/Palette";
-import styles from "../styles/Home.module.css";
+import Navbar from "../../components/Navbar";
+import Palette from "../../components/Palette";
+import styles from "../../styles/Home.module.css";
 
 export default function Home() {
-  const routes = require("./assets/routes.json");
+  const routes = require("../assets/routes.json");
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      Welecome! This is were i experiment random things
+      <Palette/>
 
       <Navbar routes={routes}></Navbar>
     </div>

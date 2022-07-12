@@ -7,7 +7,7 @@ export default function Navbar({ routes }, { currentRoute }) {
         {routes.map((route, index) => {
           return (
             <Link href={route.href} key={index}>
-              <a className={currentRoute === route.href ? "active" : ""}>
+              <a className={currentRoute === route.href ? "navbar__link active" : "navbar__link"}>
                 <div className="navbar__icon">
                   <Icons icon={route.handle} theme={"dark"} />
                 </div>

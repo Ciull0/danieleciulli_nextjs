@@ -1,11 +1,5 @@
 [
     {
-        "route": "",
-        "handle": "",
-        "label": "Home",
-        "href": "/"
-    },
-    {
         "route": "resume",
         "handle": "resume",
         "label": "Curriculum",
