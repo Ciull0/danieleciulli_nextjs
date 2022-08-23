@@ -1,0 +1,8 @@
+[
+    {
+        "route": "colors",
+        "handle": "colors",
+        "label": "Color Picker",
+        "href": "/playground/colors"
+    }
+]

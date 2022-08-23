@@ -9,7 +9,6 @@ export default function Palette() {
     numberOfColors = 5,
     type = "hue"
   ) {
-    console.log(type);
     let hslColor = hexToHSL(hexColor);
     let palette = [];
     palette.push(hslColor);
@@ -42,7 +41,18 @@ export default function Palette() {
       default:
         break;
     }
+    setPaletteInCss(palette);
+
     return palette;
+  }
+
+  function setPaletteInCss(palette) {
+    let root = document.querySelector(":root").style;
+    console.log(root, palette);
+
+    root.setProperty("--primary", "hsl(" + palette[0].hue + "," + palette[0].saturation + "%," + palette[0].lightness + "%)");
+    root.setProperty("--secondary", "hsl(" + palette[parseInt(palette.length/2)].hue + "," + palette[parseInt(palette.length/2)].saturation + "%," + palette[parseInt(palette.length/2)].lightness + "%)");
+    root.setProperty("--terziary", "hsl(" + palette[palette.length-1].hue + "," + palette[palette.length-1].saturation + "%," + palette[palette.length-1].lightness + "%)");
   }
 
   function hexToHSL(H) {
@@ -175,6 +185,12 @@ export default function Palette() {
             ></div>
           );
         })}
+      </div>
+
+      <div className="container">
+        <div style={{width: "15rem", height: "15rem", background:"var(--primary)"}}></div>
+        <div style={{width: "15rem", height: "15rem", background:"var(--secomdary)"}}></div>
+        <div style={{width: "15rem", height: "15rem", background:"var(--terziary)"}}></div>
       </div>
     </div>
   );
