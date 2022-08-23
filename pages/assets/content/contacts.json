@@ -1,14 +1,11 @@
 [
   {
-    "name": "+393313095219",
-    "type": "phone"
+    "phone": "+393313095219"
   },
   {
-    "name": "danieleciulli1997@gmail.com",
-    "type": "email"
+    "email": "danieleciulli1997@gmail.com"
   },
   {
-    "type": "url",
-    "name": "danieleciulli.it"
+    "website": "danieleciulli.it"
   }
 ]

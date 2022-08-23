@@ -1,0 +1,1234 @@
+[
+  {
+    "id": 84,
+    "outputTypeId": 900000000000002,
+    "previousOutputTypeActivitySeqMappingId": null,
+    "isRemoved": false,
+    "isPrimary": false,
+    "items": [
+      {
+        "id": 95,
+        "outputTypeId": 900000000000002,
+        "previousOutputTypeActivitySeqMappingId": 84,
+        "isRemoved": false,
+        "isPrimary": false,
+        "items": [
+          {
+            "id": 150,
+            "outputTypeId": 900000000000002,
+            "previousOutputTypeActivitySeqMappingId": 95,
+            "isRemoved": false,
+            "isPrimary": false,
+            "items": [
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "outputTypeId": 900000000000002,
+            "previousOutputTypeActivitySeqMappingId": 95,
+            "isRemoved": false,
+            "isPrimary": false,
+            "items": [
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "outputTypeId": 900000000000002,
+    "previousOutputTypeActivitySeqMappingId": null,
+    "isRemoved": false,
+    "isPrimary": false,
+    "items": [
+      {
+        "id": 95,
+        "outputTypeId": 900000000000002,
+        "previousOutputTypeActivitySeqMappingId": 84,
+        "isRemoved": false,
+        "isPrimary": false,
+        "items": [
+          {
+            "id": 150,
+            "outputTypeId": 900000000000002,
+            "previousOutputTypeActivitySeqMappingId": 95,
+            "isRemoved": false,
+            "isPrimary": false,
+            "items": [
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "outputTypeId": 900000000000002,
+            "previousOutputTypeActivitySeqMappingId": 95,
+            "isRemoved": false,
+            "isPrimary": false,
+            "items": [
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "outputTypeId": 900000000000002,
+    "previousOutputTypeActivitySeqMappingId": null,
+    "isRemoved": false,
+    "isPrimary": false,
+    "items": [
+      {
+        "id": 95,
+        "outputTypeId": 900000000000002,
+        "previousOutputTypeActivitySeqMappingId": 84,
+        "isRemoved": false,
+        "isPrimary": false,
+        "items": [
+          {
+            "id": 150,
+            "outputTypeId": 900000000000002,
+            "previousOutputTypeActivitySeqMappingId": 95,
+            "isRemoved": false,
+            "isPrimary": false,
+            "items": [
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "outputTypeId": 900000000000002,
+            "previousOutputTypeActivitySeqMappingId": 95,
+            "isRemoved": false,
+            "isPrimary": false,
+            "items": [
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "outputTypeId": 900000000000002,
+    "previousOutputTypeActivitySeqMappingId": null,
+    "isRemoved": false,
+    "isPrimary": false,
+    "items": [
+      {
+        "id": 95,
+        "outputTypeId": 900000000000002,
+        "previousOutputTypeActivitySeqMappingId": 84,
+        "isRemoved": false,
+        "isPrimary": false,
+        "items": [
+          {
+            "id": 150,
+            "outputTypeId": 900000000000002,
+            "previousOutputTypeActivitySeqMappingId": 95,
+            "isRemoved": false,
+            "isPrimary": false,
+            "items": [
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "outputTypeId": 900000000000002,
+            "previousOutputTypeActivitySeqMappingId": 95,
+            "isRemoved": false,
+            "isPrimary": false,
+            "items": [
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "outputTypeId": 900000000000002,
+                "previousOutputTypeActivitySeqMappingId": null,
+                "isRemoved": false,
+                "isPrimary": false,
+                "items": [
+                  {
+                    "id": 95,
+                    "outputTypeId": 900000000000002,
+                    "previousOutputTypeActivitySeqMappingId": 84,
+                    "isRemoved": false,
+                    "isPrimary": false,
+                    "items": [
+                      {
+                        "id": 150,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      },
+                      {
+                        "id": 160,
+                        "outputTypeId": 900000000000002,
+                        "previousOutputTypeActivitySeqMappingId": 95,
+                        "isRemoved": false,
+                        "isPrimary": false,
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,4 +1,5 @@
 import Block from "../components/Block";
+import JsonDisplayer from "../components/JsonDisplayer";
 import Navbar from "../components/Navbar";
 
 // This function gets called at build time
@@ -29,26 +30,11 @@ export async function getStaticProps({ params }) {
 
 export default function page({ data }) {
     const routes = require('./assets/routes.json');
+    console.log(data)
     return(
         <main>
             
-            <ul>
-                <li>
-                    {data.map((item, index) => {
-                        switch (item) {
-                            case 'Experiences':
-                                return(
-                                    item.blocks.map((data, index)=>{
-                                        return(
-                                            <Block data={data} key={index}>
-                                            </Block>
-                                        )
-                                    })
-                                );
-                        }
-                    })}
-                </li>
-            </ul>
+            <JsonDisplayer data={data}></JsonDisplayer>
             <Navbar routes={routes} />
         </main>
     )

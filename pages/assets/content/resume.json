@@ -1,7 +1,6 @@
 [
     {
-        "type": "Experiences",
-        "blocks": [
+        "experiences": [
             {
                 "emplyer": "Sintra Digital Business",
                 "title": "Software Developer",

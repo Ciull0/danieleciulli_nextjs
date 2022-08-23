@@ -14,3 +14,46 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.array{
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: stretch;
+  padding: 0 8px 8px;
+  gap: 32px;
+  border-top: 1px solid red;
+}
+
+.array__elem::before{
+  display: inline-block;
+  width: 100%;
+  content: '|';
+  text-align: center;
+  color: red;
+}
+
+.obj{
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 8px;
+  gap: 16px;
+  border: 1px solid black;
+}
+
+.obj__key{
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 16px 0 4px;
+}
+
+.obj__elem{
+  padding-bottom: 6px;
+  border-bottom: 1px solid black;
+}
