@@ -33,8 +33,7 @@ export default function page({ data }) {
     console.log(data)
     return(
         <main>
-            
-            <JsonDisplayer data={data}></JsonDisplayer>
+            <JsonDisplayer data={data}  onUpdateRootData={(newRootData)=>{updateRootData(newRootData)}}></JsonDisplayer>
             <Navbar routes={routes} />
         </main>
     )

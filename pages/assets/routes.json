@@ -12,33 +12,9 @@
         "href": "/contacts"
     },
     {
-        "route": "tree",
-        "handle": "tree",
-        "label": "Tree",
-        "href": "/tree"
-    },
-    {
         "route": "playground",
         "handle": "playground",
         "label": "Playground",
         "href": "/playground"
-    },
-    {
-        "route": "posts",
-        "handle": "posts",
-        "label": "Posts",
-        "href": "/posts"
-    },
-    {
-        "route": "users",
-        "handle": "users",
-        "label": "Users",
-        "href": "/users"
-    },
-    {
-        "route": "cart",
-        "handle": "cart",
-        "label": "Cart",
-        "href": "/cart"
     }
 ]
