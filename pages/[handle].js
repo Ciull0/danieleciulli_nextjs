@@ -1,4 +1,4 @@
-import Block from "../components/Block";
+import { useForceUpdate } from "@react-spring/shared";
 import JsonDisplayer from "../components/JsonDisplayer";
 import Navbar from "../components/Navbar";
 
@@ -30,10 +30,18 @@ export async function getStaticProps({ params }) {
 
 export default function page({ data }) {
     const routes = require('./assets/routes.json');
-    console.log(data)
+    let currentData = data;
+    let forceUpdate = useForceUpdate();
+
+    const handleDataUpdate = (newData) =>{
+        currentData = newData;
+        forceUpdate();
+        return newData;
+    }
+
     return(
         <main>
-            <JsonDisplayer data={data}  onUpdateRootData={(newRootData)=>{updateRootData(newRootData)}}></JsonDisplayer>
+            <JsonDisplayer data={currentData} onRootChange={handleDataUpdate}></JsonDisplayer>
             <Navbar routes={routes} />
         </main>
     )

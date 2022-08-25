@@ -1,20 +1,19 @@
 import { useState } from "react";
 
 export default function JsonDisplayer(props) {
-    
+
     let keyPath = props.keypath ? props.keypath : [];
+
+    let handleRootChange = (newRootData) =>{
+        return props.onRootChange(newRootData);
+    }
 
     const [rootData = props.rootData ? props.rootData : props.data, updateRootData] = useState();
 
-    if(!props.rootData){
-        console.log('at root rerender', rootData);
-    }
-
     function updateDataOnRoot(event, keyPath){
         let newRootData = recursiveObjectUpdater(event.target.value, rootData, keyPath)
-        updateRootData(newRootData);
-
-        props.onUpdateRootData(rootData);
+        console.log('update', keyPath);
+        updateRootData(props.onRootChange(newRootData));
     }
 
     function recursiveObjectUpdater(newValue, object, keyPath=[]){
@@ -41,7 +40,7 @@ export default function JsonDisplayer(props) {
                         props.data.map((elem, index)=>{
                             return(
                                 <div className="array__elem" key={index}>
-                                    <JsonDisplayer onUpdateRootData={(newRootData)=>{updateRootData(newRootData)}} data={elem} rootData={rootData} isEditEnabled={true} keypath={keyPath.concat(index)} ></JsonDisplayer>
+                                    <JsonDisplayer onRootChange={handleRootChange} data={elem} rootData={rootData} isEditEnabled={true} keypath={keyPath.concat(index)} ></JsonDisplayer>
                                 </div>
                             )
                         })
@@ -58,7 +57,7 @@ export default function JsonDisplayer(props) {
                                     <div className="obj__key">
                                         {key}
                                     </div>
-                                    <JsonDisplayer onUpdateRootData={(newRootData)=>{updateRootData(newRootData)}} data={props.data[key]} rootData={rootData} isEditEnabled={true} keypath={keyPath.concat(key)}></JsonDisplayer>
+                                    <JsonDisplayer onRootChange={handleRootChange} data={props.data[key]} rootData={rootData} isEditEnabled={true} keypath={keyPath.concat(key)}></JsonDisplayer>
                                 </div>
                             )
                         })

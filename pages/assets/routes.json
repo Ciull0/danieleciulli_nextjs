@@ -10,11 +10,5 @@
         "handle": "contacts",
         "label": "Contacts",
         "href": "/contacts"
-    },
-    {
-        "route": "playground",
-        "handle": "playground",
-        "label": "Playground",
-        "href": "/playground"
     }
 ]
