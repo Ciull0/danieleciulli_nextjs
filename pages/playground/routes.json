@@ -4,5 +4,11 @@
         "handle": "colors",
         "label": "Color Picker",
         "href": "/playground/colors"
+    },
+    {
+        "route": "cazzofai",
+        "handle": "cazzofai",
+        "label": "cazzofai",
+        "href": "/playground/cazzofai"
     }
 ]

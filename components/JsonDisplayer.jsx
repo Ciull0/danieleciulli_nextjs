@@ -3,6 +3,7 @@ import { useState } from "react";
 export default function JsonDisplayer(props) {
 
     let keyPath = props.keypath ? props.keypath : [];
+    let isEditEnabled = props.isEditEnabled ? props.isEditEnabled : false
 
     let handleRootChange = (newRootData) =>{
         return props.onRootChange(newRootData);
@@ -12,7 +13,6 @@ export default function JsonDisplayer(props) {
 
     function updateDataOnRoot(event, keyPath){
         let newRootData = recursiveObjectUpdater(event.target.value, rootData, keyPath)
-        console.log('update', keyPath);
         updateRootData(props.onRootChange(newRootData));
     }
 
@@ -40,7 +40,7 @@ export default function JsonDisplayer(props) {
                         props.data.map((elem, index)=>{
                             return(
                                 <div className="array__elem" key={index}>
-                                    <JsonDisplayer onRootChange={handleRootChange} data={elem} rootData={rootData} isEditEnabled={true} keypath={keyPath.concat(index)} ></JsonDisplayer>
+                                    <JsonDisplayer onRootChange={handleRootChange} data={elem} rootData={rootData} isEditEnabled={isEditEnabled} keypath={keyPath.concat(index)} ></JsonDisplayer>
                                 </div>
                             )
                         })
@@ -57,7 +57,7 @@ export default function JsonDisplayer(props) {
                                     <div className="obj__key">
                                         {key}
                                     </div>
-                                    <JsonDisplayer onRootChange={handleRootChange} data={props.data[key]} rootData={rootData} isEditEnabled={true} keypath={keyPath.concat(key)}></JsonDisplayer>
+                                    <JsonDisplayer onRootChange={handleRootChange} data={props.data[key]} rootData={rootData} isEditEnabled={isEditEnabled} keypath={keyPath.concat(key)}></JsonDisplayer>
                                 </div>
                             )
                         })
@@ -66,12 +66,12 @@ export default function JsonDisplayer(props) {
             );   
         }        
     } else if(props.data != null) {
-        if(props.isEditEnabled){
+        if(isEditEnabled){
             return(
                 <input onChange={(e)=>{updateDataOnRoot(e, keyPath)}} type={'text'} value={props.data} placeholder={props.data}/>
             )
         }else{
-            <span className="value">{data}</span>
+            return(<span className="value">{props.data}</span>)
         }
     }else{
         return('')

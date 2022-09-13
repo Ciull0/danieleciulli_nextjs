@@ -1,4 +1,5 @@
 import { useForceUpdate } from "@react-spring/shared";
+import { useEffect, useState } from "react";
 import JsonDisplayer from "../components/JsonDisplayer";
 import Navbar from "../components/Navbar";
 
@@ -18,30 +19,57 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     // Call an external API endpoint to get posts
-    const data = require('./assets/content/'+params.handle+'.json');
+    const startingData = require('./assets/content/'+params.handle+'.json');
     // By returning { props: { posts } }, the Blog component
     // will receive `posts` as a prop at build time
     return {
         props: {
-            data,
+            startingData,
         },
     }
 }
 
-export default function page({ data }) {
+export default function page({ startingData }) {
     const routes = require('./assets/routes.json');
-    let currentData = data;
-    let forceUpdate = useForceUpdate();
+    const [data, setData] = useState(startingData);
+    const [extraDatas, setExtraDatas] = useState([]);
+
+    useEffect(()=>{
+        console.log('aaaa', extraDatas);
+    })
 
     const handleDataUpdate = (newData) =>{
-        currentData = newData;
-        forceUpdate();
+        setData([...newData]);
         return newData;
+    }
+
+    function addAFile(event){
+        for(let file of event.target.files){
+            let reader = new FileReader();
+            reader.onload = fileReaderHandler;
+            reader.readAsText(file);
+        }
+    }
+
+    function fileReaderHandler(event){
+        console.log('event file reader', event)
+        let dataToAdd = JSON.parse(event.target.result);
+
+        setExtraDatas(extraDatas.concat(dataToAdd))
     }
 
     return(
         <main>
-            <JsonDisplayer data={currentData} onRootChange={handleDataUpdate}></JsonDisplayer>
+            <JsonDisplayer data={data} onRootChange={handleDataUpdate} isEditEnabled={true}></JsonDisplayer>
+            try with your content! Add one or more json files!
+            
+            {extraDatas.map((extraData)=>{
+                <div>
+                    aaaaaaaaaaaaaaaaaaa 
+                    <JsonDisplayer data={extraData} isEditEnabled={false}></JsonDisplayer>
+                </div>
+            })}
+            <input onChange={addAFile} type="file" accept=".json" multiple/>
             <Navbar routes={routes} />
         </main>
     )
